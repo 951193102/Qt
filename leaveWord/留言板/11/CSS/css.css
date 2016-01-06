@@ -1,0 +1,63 @@
+body,td,th {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #433A3A;
+	
+	
+}
+body {
+margin:0 auto;
+background:url(../images/bg.jpg);
+}
+
+.a{
+	font-family: "宋体";
+	font-size: 12px;
+	color: #fff;
+	font-weight:bold;
+
+}
+a:link {
+	color: #433A3A;
+	text-decoration: none;
+}
+a:visited {
+	color: #433A3A;
+	text-decoration:none;
+}
+a:hover {
+	color: #ff0000;
+	text-decoration:  none;
+}
+/*--------------------------导航-----------------------------------------------------*/
+ a.lian{
+display:block;
+font-size:12px;
+border-bottom:1px solid #b4b49c;
+padding:8px 8px 8px 18px;
+text-decoration:none;
+color:#b4b49c;
+}
+ a.lian:link {
+color: #323317;
+	}
+a.lian:visited {
+	color: #323317;
+}
+a.lian:hover {
+	color: #bf0707;
+	background-image:url(../images/发表留言_08.jpg);
+	}
+
+.dhwz{
+padding-left:60px;
+padding-top:25px;
+font-size:13px;
+font-weight:bold;
+color:#000000;}
+.tb{
+
+border-bottom:1px solid #CCCCCC;
+border-bottom-style:dashed;}
+	
+

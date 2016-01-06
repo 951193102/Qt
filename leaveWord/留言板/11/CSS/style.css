@@ -1,0 +1,98 @@
+/*
+            === ShranM Guestbook StyleSheet File ===
+            ===    Name: Default Blue
+            ===     For: V2.20/V2.21
+            ===      By: Howlion
+            ===      On: 2005-08-23
+            ===      In: Luoyang, China
+            ========================================
+*/
+
+body {
+	padding: 0px;
+	margin: 5px;
+	font-family: ËÎÌå, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 1.4;
+	color: #505050;
+	text-align: center;	
+	font-weight: normal;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+A:link, A:visited, A:active {text-decoration: underline; color: #2F2F2F;}
+A:hover {text-decoration: underline; color: #79A417;}
+
+#wrapper {					/* Ò³Ãæ¿ò¼Ü */
+	width: 752px;
+	border: 6px solid #3A97EB;
+	margin: 0px auto;
+	background: #FFFFFF;
+}
+
+#wrapperInner {
+	text-align: left;
+	margin: 5px;
+	background: #E9E9E9;
+}
+
+h1,h2,h3,p,form,ul {margin: 0px; padding: 0px;}
+h2 {font-size: 12px; display: inline;}
+h3 {font-size: 12px; display: inline;}
+ul {list-style-type: none;}
+img {vertical-align: middle; border: 0px none;}
+html>body img {max-width: 100%; height: auto;}
+img.face {width: 30px; height: 30px;}
+img.emot {width: 20px; height: 20px;}
+img.imgLink {width: 15px; height: 15px;}
+.red {color: #FF0000; font-family: ËÎÌå, Arial, Helvetica, sans-serif;}
+.autoSizeImg {clear: both; width: 100%; overflow-x: auto;}
+.normalText {font-weight: normal; font-size: 12px;}
+.noteText {font-weight: normal; color: #868686;font-family: verdana, arial, helvetica, sans-serif;}
+.Highlight {color: #FF5402; font-weight: bold;}
+.backText {clear: both;margin-top: 20px; text-align: center;}
+.keyword{font-weight: bold; color: white; background-color: #CC3333}
+.divLine {clear:both;width: 540px;height: 12px;border-top: 1px dashed #C9C9C9;}
+#smallWrapper {border: 5px solid #339CF2; background: #FFFFFF; height: 100%; text-align: left;}
+hr {clear: both; margin-right: 8px; height: 1px; border-top: 1px dashed; color: #929292;}
+hr.normalHR {clear: both; margin: 0px 18px; height: 1px; border-top: 1px dashed; color: #929292;}
+table {font-size: 12px;}
+td{word-break: break-all;}
+.button {border: 1px solid #6C6C6C; background: #FFFFFF;}
+input,textarea,select {
+	font-size: 12px;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+#navLink {
+	text-align: right;
+	width: 160px;
+	background: #FFFFFF;
+}
+
+#navLink li {
+	line-height: 22px;
+	margin: 0px 0px 1px 0px;
+}
+
+#navLink li a {
+	text-decoration: none;
+	color: #666666;
+	display: block;
+	background: #E9E9E9;
+	border-right: solid 6px #78B8F1;
+	padding: 0px 10px 0px 0px;
+	width: 160px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	width: 144px;
+}
+
+#navLink li a:hover, #navLink li a.selected {
+	color: #FFFFFF;
+	background: #78B8F1;
+	border-right: solid 6px #175C82;
+}
+
